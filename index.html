@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+ 
+
+    <title>Quang Khai Nguyen | WEB222</title>
+  </head>
+
+  <body>
+    <nav>
+        <h1>Quang Khai Nguyen</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+    <section class="hero" id="about">
+        <img
+          src="Son.Goku.(DRAGON.BALL).full.1576118.jpg"
+          alt="Quang Khai Nguyen"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            <p><span class="title-s">Name: </span> <span>Quang Khai Nguyen</span></p>
+            <p><span class="title-s">Student id: </span> <span>15740215</span></p>
+            <p><span class="title-s">Profile: </span> <span>full time seneca CPA student</span></p>
+            <p><span class="title-s">Email: </span> <span>nquang-khai@myseneca.ca</span></p>
+            <p><span class="title-s">Phone: </span> <span>4375227688</span></p>
+          </p>
+        </div>
+  </section>
+
+
+    <section class="more-about">
+        <h2>About Me and Academic Honestly</h2>
+        <p>
+            I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy.
+            . No part of this assessment has been copied manually or electronically from any other source 
+            (including web sites) except for the information supplied by the WEB222 instructors and / or 
+            made available in this assessment for my use. I also declare that no part of this assignment has
+            has been distributed to other students.
+        </p>
+        <p>
+          Professor name: Noman Atique
+        </p>
+        <p>
+         Date: August 14th 2022
+        </p>
+      </section>
+
+      <div class="column-2a">
+        <h2>Education</h2>
+          <table class="table-style">
+            <tr>
+              <td>Centenial college</td>
+              <td>2020-2022</td>
+            </tr>
+            <tr>
+              <td>Seneca college</td>
+              <td>2022-2025</td>
+            </tr>
+          </table>
+        </div>
+
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://httpbin.org/post" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-control">
+              <label for="address">Address</label>
+              <input
+                type="address"
+                id="address"
+                name="sender-address"
+                placeholder="Enter Your Address"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+                <label for="city">City</label>
+                <input
+                  type="city"
+                  id="city"
+                  name="sender-city"
+                  placeholder="Enter Your City"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="postal code">Postal Code</label>
+                <input
+                  type="postal code"
+                  id="postal code"
+                  name="sender-postal code"
+                  placeholder="Enter Your postal code"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+  </body>
+</html>
